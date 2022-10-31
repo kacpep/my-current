@@ -49,6 +49,15 @@ li a {
 li a:hover {
 	padding-left: 20px;
 }
+ul li:last-child{
+	font-family: 'Roboto', sans-serif;
+font-weight: 300;
+cursor: pointer;
+}
+#copyDcText{
+	opacity: 100%;
+	transition: opacity 0.3s;
+}
 
 p {
 	color: rgb(179, 179, 179);
