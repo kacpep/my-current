@@ -97,7 +97,7 @@ section:nth-child(2) ul li a {
 	transition: font-size 0.1s;
 }
 section:nth-child(2) ul li a:hover {
-	font-size: 23px;
+	font-size: 18px;
 	padding-left: 0;
 }
 @keyframes fadeIn {
