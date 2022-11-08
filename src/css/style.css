@@ -70,6 +70,7 @@ p {
 h4 {
 	font-weight: 600;
 	animation: fadeIn 1s;
+	width: 100%;
 }
 .icons {
 	width: 40px;
@@ -96,7 +97,7 @@ section:nth-child(2) ul li a {
 	transition: font-size 0.1s;
 }
 section:nth-child(2) ul li a:hover {
-	font-size: 14px;
+	font-size: 23px;
 	padding-left: 0;
 }
 @keyframes fadeIn {
@@ -120,6 +121,10 @@ section:nth-child(2) ul li a:hover {
 	}
 	p {
 		font-size: 14px;
+	}
+	section:nth-child(2) ul li a:hover {
+		font-size: 17px;
+		padding-left: 0;
 	}
 	.icons {
 		width: 34px;
@@ -146,4 +151,7 @@ section:nth-child(2) ul li a:hover {
 		justify-content: left;
 		transition: font-size 0.1s;
 	}
+	section:nth-child(2) h4 {
+	text-align: left;
+}
 }
