@@ -77,5 +77,6 @@ option.addEventListener("click", () => {
 });
 
 toogle.addEventListener("click", () => {
+	//all animation
 	animation();
 });
