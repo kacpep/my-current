@@ -19,21 +19,6 @@ setInterval(() => {
 	mainTextLoading();
 }, 9000);
 
-let dc = document.querySelector("#copyDc");
-let dcText = document.querySelector("#copyDcText");
-let temp = dcText.textContent;
-
-dc.addEventListener("click", () => {
-	//click copy to discord
-	navigator.clipboard.writeText("kacpep#0828");
-	dcText.textContent = "✔ Copied";
-	setTimeout(() => {
-		dcText.style.opacity = "0%";
-		dcText.textContent = temp;
-		dcText.style.opacity = "100%";
-	}, 1000);
-});
-
 let toogle = document.getElementById("toggle");
 let objAnimtion = document.querySelectorAll("section");
 let allPToogle = document.querySelectorAll(".option p");
